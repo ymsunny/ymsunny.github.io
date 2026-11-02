@@ -90,6 +90,7 @@ main.container>.recognition{padding-top:0}
 /* Present each paper as a simple list item, matching research interests. */
 .publication{display:list-item;list-style:disc;margin:0 0 24px 25px;padding:0 0 0 3px;border:0}
 .publication::marker{color:#292929;font-size:.9em}
+.interest-list li::marker,.publication::marker{color:#292929;font-size:21px}
 .paper-body h3{font-size:22px;line-height:1.55;font-weight:600}
 .paper-authors{font-size:19px;line-height:1.6;margin-top:5px}
 .venue{margin-top:5px;gap:8px 15px}
@@ -98,6 +99,7 @@ main.container>.recognition{padding-top:0}
 .contribution-note{margin:5px 0 0 25px;font-size:17px}
 .earlier-publication{list-style:disc}
 @media(max-width:560px){.publication{margin-left:22px;margin-bottom:22px}.paper-body h3{font-size:20px}.paper-authors,.venue-name,.distinction,.publication-note,.paper-links{font-size:18px}}
+@media(max-width:560px){.interest-list li::marker,.publication::marker{font-size:20px}}
 .venue-name{color:#a65f24}
 /* Minimal two-page navigation, like Jason Wei's site. */
 .header-inner{justify-content:space-between}
