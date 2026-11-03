@@ -86,6 +86,7 @@ main.container>.recognition{padding-top:0}
 .paper-links a,.paper-links a:hover,.earlier-link{color:var(--ink)}
 .venue-name{color:var(--ink)}
 .distinction{color:#775094;font-weight:700;background:transparent;border:0;padding:0}
+.distinction.award-distinction{color:#b3261e}
 .publication-note{color:var(--ink)}
 /* Present each paper as a simple list item, matching research interests. */
 .publication{display:list-item;list-style:disc;margin:0 0 24px 25px;padding:0 0 0 3px;border:0}
